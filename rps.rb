@@ -12,6 +12,7 @@ def play
   human_move = human_selection
   computer_move = computer_selection
   get_winner(human_move, computer_move)
+  # binding.pry
 end
 
 
@@ -29,12 +30,15 @@ end
       "It's a tie! Play again."
     else
       if WINS.include?([input1, input2])
-        "Computer shoots #{input2.capitalize}, and you shot #{input1.capitalize}. You win!"
+        puts "Computer shoots #{input2.capitalize}, and you shot #{input1.capitalize}. You win!"
       else
-        "Computer shoots #{input2.capitalize}, and you shot #{input1.capitalize}. Computer wins."
+        puts "Computer shoots #{input2.capitalize}, and you shot #{input1.capitalize}. Computer wins."
       end
     end
   end
 
 
   end
+
+  game = RockPaperScissors.new
+  game.play
