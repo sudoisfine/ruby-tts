@@ -5,12 +5,17 @@
 # greeting ("Melissa")
 
 scores = [100, 80, 75, 93]
-counter = 0
+# counter = 0
 sum = 0
 
-while counter < scores.length
-  sum += scores [counter]
-  counter += 1
+# while counter < scores.length
+#   sum += scores [counter]
+#   counter += 1
+# end
+
+scores.each do |score|
+  sum += score
 end
 
 puts "The sum is #{sum}"
+

@@ -19,17 +19,17 @@
 
 # #oh my god you dummy. Here's the hard one that always returns false:
 
-def math_blaster
-  puts "Let's see how you do with some simple arithmetic! Type some basic math below and we'll let you know if you're right. Here's an example: 4 + 3 = 7 (please include spaces!)"
-  value=gets.chomp.split(" ")
-  if value[0.to_i] + value[1.send] + value[2.to_i] == value[4.to_i]
-    puts "You got it right!"
-  else
-    puts "You're no Fibonacci, eh?"
-  end
-end
+# def math_blaster
+#   puts "Let's see how you do with some simple arithmetic! Type some basic math below and we'll let you know if you're right. Here's an example: 4 + 3 = 7 (please include spaces!)"
+#   value=gets.chomp.split(" ")
+#   if value[0.to_i] + value[1] + value[2.to_i] == value[4.to_i]
+#     puts "You got it right!"
+#   else
+#     puts "You're no Fibonacci, eh?"
+#   end
+# end
 
-math_blaster
+# math_blaster
 
 # def math_reblaster
 #   puts "Are you smarter than a baby? What's 4+3?"
@@ -78,19 +78,19 @@ math_blaster
 
 #   # 5. Did your brother or sister ever copycat everything you said just to get under your skin? Man, was that annoying or what?! Let’s write a program that does the same thing.  This annoying program can only be stopped if the user says “I’m  a dummy” because the program won’t repeat something so self deprecating!
 
-# puts "Stop copying me."
+puts "Stop copying me."
 
-# def mocking_bird
-#   bird=gets.chomp
-#   if bird == "I'm a dummy"
-#     puts "NUH UH"
-#   else
-#     puts "#{bird}"
-#     mocking_bird
-#     end
-#   end
+def mocking_bird
+  bird=gets.chomp
+  if bird == "I'm a dummy"
+    puts "NUH UH"
+  else
+    puts "#{bird}"
+    mocking_bird
+    end
+  end
 
-#   mocking_bird
+  mocking_bird
 
 # # BONUS #1: Change our previous lesson’s activity program to check both the temperature and whether or not it is raining.  Have the program return that we will go hiking only if the temperature is right AND it is not raining.  (Note: There is more than one way to solve this; this exercise is more about playing with new concepts rather than creating the best program ever.)
 

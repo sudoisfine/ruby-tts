@@ -20,7 +20,7 @@
 # sum_numbers
 
 
-# # 3. Add to the code below so it displays "Don't forget to (to do item)." for each item.
+# # 3. Add to the code below so it displays "Don't forget to (to do item)." for each item. **each do loop is cleaner, duh**
 # to_do = ["wash the car", "buy groceries", "finish homework", "pay the bills"]
 
 # puts "Don't forget to " + to_do[0] + "."
@@ -47,7 +47,7 @@
 
 # # 6. How do you add "bobcat" to this list of wild cat species?
 # wild_cats= ['cheetah', 'lion', 'leopard', 'tiger']
-# wild_cats.push 'bobcat'
+# wild_cats.push ('bobcat')
 
 
 # # 7. How do you retrieve the birthplace of user1?
